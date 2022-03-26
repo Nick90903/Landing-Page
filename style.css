@@ -53,4 +53,39 @@ body {
     flex-direction: column;
 }
 
+/* Second Pane */
 
+.second {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-hero {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex: 0;
+    flex-wrap: wrap;
+    margin-left: 35px;
+}
+
+.rounded-edges {
+    border-radius: 8px;
+    border: 2px solid #3882F6;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+}
