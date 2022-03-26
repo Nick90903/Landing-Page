@@ -31,3 +31,26 @@ body {
     color: #F9FAF8;
 }
 
+/* First Pane */
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.placeholder {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 89px;
+    padding-right: 89px;
+    background-color: #E5E7EB;
+}
+
+.top-left-text {
+    display: flex;
+    flex-direction: column;
+}
+
+
