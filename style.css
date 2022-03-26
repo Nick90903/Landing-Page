@@ -49,18 +49,26 @@ body {
     padding-bottom: 50px;
     padding-left: 89px;
     padding-right: 89px;
+    width: 200px;
+    height: 112px;
+    display: flex;
+    align-items: center;
     background-color: #E5E7EB;
+    font-size: 14px;
+    font-weight: 300;
 }
 
 #hero-text {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin-bottom: 15px;
 }
 
 .subtext-1 {
     font-size: 16px;
     color: #E5E7EB;
+    margin-bottom: 15px;
 }
 
 .top-left-text {
@@ -68,6 +76,7 @@ body {
     flex-direction: column;
     margin-left: 100px;
     margin-right: 50px;
+    width: 400px;
 }
 
 button {
@@ -103,6 +112,7 @@ button {
     flex: 0;
     flex-wrap: wrap;
     margin-left: 35px;
+    margin-bottom: 50px;;
 }
 
 .rounded-edges {
@@ -111,6 +121,10 @@ button {
     padding: 20px;
     width: 50px;
     height: 50px;
+}
+
+.text {
+    font-size: 14px;
 }
 
 /* Third Pane */
@@ -150,7 +164,27 @@ button {
     align-items: center;
     background-color: #3882F6;
     border-radius: 7px;
-    margin: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-left:50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex: 1;
+}
+
+.cta, .cta-text, .cta-button {
+    color: #F9FAF8;
+}
+
+.cta-button {
+    border-color: #F9FAF8;
+}
+
+.cta-text {
+    font-size: 10px;
 }
 
 /* Footer */
@@ -162,3 +196,4 @@ button {
     background-color: #1F2937;
     color: #E5E7EB;
 }
+
